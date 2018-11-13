@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     public Text questionDisplayText;
     public Text scoreDisplayText;
     public Text timeRemainingDisplayText;
+    public Text highScoreDisplayText;
     public Transform answerButtonParent;
     public GameObject questionDisplay;
     public GameObject roundEndDisplay;
@@ -68,13 +69,21 @@ public class GameController : MonoBehaviour
 
     public void UpdateTimeRemainingDisplay()
     {
-
+        if (isRoundActive)
+        {
+            timeRemaining -= Time.deltaTime;
+            timeRemainingDisplayText.text = "Time: " + Mathf.Round(timeRemaining).ToString();
+        }
     }
     // Update is called once per frame
     void Update()
     {
         //Update time remaining
         UpdateTimeRemainingDisplay();
+        if (timeRemaining <= 0f)
+        {
+            EndRound();
+        }
     }
 
     public void AnswerButtonClicked(bool isCorrect)
@@ -92,13 +101,24 @@ public class GameController : MonoBehaviour
         }
         else
         {
-			EndRound();
+            EndRound();
         }
     }
 
     public void EndRound()
     {
-		isRoundActive = false;
-		questionDisplay.SetActive(false);
+        isRoundActive = false;
+        dataController.SubmitNewHightScore(playScore);
+        roundEndDisplay.SetActive(true);
+
+        highScoreDisplayText.text = "Highest Score: " + dataController.GetHighestScore().ToString();
+
+        questionDisplay.SetActive(false);
     }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("Persistent");
+    }
+
 }

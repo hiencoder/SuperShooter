@@ -6,7 +6,7 @@ public class AnswerButton : MonoBehaviour
 {
     public Text answerText;
     private AnswerData answerData;
-
+    private GameController gameController;
 
 	//Display answer
     public void Setup(AnswerData data)
@@ -17,12 +17,10 @@ public class AnswerButton : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        gameController = FindObjectOfType<GameController>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
+    public void HandleClick(){
+        gameController.AnswerButtonClicked(answerData.isCorrect);
     }
 }
