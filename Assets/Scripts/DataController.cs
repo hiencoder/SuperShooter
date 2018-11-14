@@ -15,7 +15,7 @@ public class DataController : MonoBehaviour
         //Load data from json assets
         LoadGameData();
         LoadPlayerProgress();
-        SceneManager.LoadScene("MenuScene");
+        //SceneManager.LoadScene("MenuScene");
     }
 
     public RoundData getCurrentRoundData()

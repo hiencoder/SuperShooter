@@ -1,0 +1,58 @@
+{
+    "allRoundData": [
+        {
+            "name": "Dieren",
+            "timeLimitInSeconds": 20,
+            "pointAdded": 0,
+            "questions": [
+                {
+                    "questionText": "Leeuwen zijn carnivoren: waar of onwaar?",
+                    "answers": [
+                        {
+                            "answerText": "Waar",
+                            "isCorrect": true
+                        },
+                        {
+                            "answerText": "Onwaar",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "questionText": "Wat eten kikkers?",
+                    "answers": [
+                        {
+                            "answerText": "Pizza",
+                            "isCorrect": false
+                        },
+                        {
+                            "answerText": "Vliegen",
+                            "isCorrect": true
+                        }
+                    ]
+                },
+                {
+                    "questionText": "Waar leven muizen?",
+                    "answers": [
+                        {
+                            "answerText": "In de zee",
+                            "isCorrect": false
+                        },
+                        {
+                            "answerText": "Op de zon",
+                            "isCorrect": false
+                        },
+                        {
+                            "answerText": "Op het land",
+                            "isCorrect": true
+                        },
+                        {
+                            "answerText": "In een boom",
+                            "isCorrect": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

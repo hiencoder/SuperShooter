@@ -585,6 +585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1202841875}
   - component: {fileID: 1202841876}
+  - component: {fileID: 1202841877}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -624,6 +625,18 @@ MonoBehaviour:
   questionDisplay: {fileID: 1455410479}
   roundEndDisplay: {fileID: 1302499526}
   answerButtonObjectPool: {fileID: 1849695084}
+--- !u!114 &1202841877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1202841874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d87570448387c44586e8807328f4a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 
 --- !u!1 &1302499526
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,6 +742,7 @@ GameObject:
   - component: {fileID: 1378140466}
   - component: {fileID: 1378140468}
   - component: {fileID: 1378140467}
+  - component: {fileID: 1378140469}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -794,6 +808,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1378140465}
   m_CullTransparentMesh: 0
+--- !u!114 &1378140469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1378140465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d87570448387c44586e8807328f4a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: score_title
 --- !u!1 &1413364694
 GameObject:
   m_ObjectHideFlags: 0
@@ -804,6 +830,7 @@ GameObject:
   - component: {fileID: 1413364695}
   - component: {fileID: 1413364697}
   - component: {fileID: 1413364696}
+  - component: {fileID: 1413364698}
   m_Layer: 5
   m_Name: TimeLimit
   m_TagString: Untagged
@@ -869,6 +896,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1413364694}
   m_CullTransparentMesh: 0
+--- !u!114 &1413364698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1413364694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d87570448387c44586e8807328f4a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: time_title
 --- !u!1 &1455410479
 GameObject:
   m_ObjectHideFlags: 0

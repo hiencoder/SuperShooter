@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "key": "game_title",
+            "value": "Quiz Game"
+        },
+        {
+            "key": "start_button",
+            "value": "Start Game"
+        },
+        {
+            "key": "exit_button",
+            "value": "Exit"
+        },
+        {
+            "key": "score_title",
+            "value": "Score"
+        },
+        {
+            "key": "highestscore_title",
+            "value": "Highest Score:"
+        },
+        {
+            "key": "time_title",
+            "value": "Time: "
+        }
+    ]
+}

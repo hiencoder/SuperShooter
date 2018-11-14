@@ -58,11 +58,16 @@
      <Compile Include="Assets\Scripts\DataController.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\GameData.cs" />
+     <Compile Include="Assets\Scripts\LoadingSceneController.cs" />
+     <Compile Include="Assets\Scripts\LocalizationData.cs" />
+     <Compile Include="Assets\Scripts\LocalizationManager.cs" />
+     <Compile Include="Assets\Scripts\LocalizedText.cs" />
      <Compile Include="Assets\Scripts\MenuScreenController.cs" />
      <Compile Include="Assets\Scripts\PlayerProgress.cs" />
      <Compile Include="Assets\Scripts\QuestionData.cs" />
      <Compile Include="Assets\Scripts\RoundData.cs" />
      <Compile Include="Assets\Scripts\SimpleObjectPool.cs" />
+     <Compile Include="Assets\Scripts\StartupManager.cs" />
      <None Include="Assets\Fonts\FontLicense.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/Unity/Studies/HighScoreDemo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

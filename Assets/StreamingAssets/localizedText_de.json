@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "key": "game_title",
+            "value": "Quiz Spiel"
+        },
+        {
+            "key": "start_button",
+            "value": "Spiel Beginnen"
+        },
+        {
+            "key": "exit_button",
+            "value": "Uitgang"
+        },
+        {
+            "key": "score_title",
+            "value": "Score"
+        },
+        {
+            "key": "highestscore_title",
+            "value": "Hoogste score"
+        },
+        {
+            "key": "time_title",
+            "value": "Tijd: "
+        }
+    ]
+}
