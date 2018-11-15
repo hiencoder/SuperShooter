@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Editor\GameDataEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\LocalizedTextEditor.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/Unity/Studies/HighScoreDemo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
